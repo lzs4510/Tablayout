@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tb = (TabLayout) findViewById(R.id.tab);
         mvp = (ViewPager) findViewById(R.id.vp);
-        ///修改222
 
         tb.addTab(tb.newTab().setText("周一"));
         tb.addTab(tb.newTab().setText("周二"));
@@ -47,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         mvp.setAdapter(pd);
         //第二次修改2222222
         //第三次修改
+        //新建分支
         //tb.setupWithViewPager(mlist.get(po));
         //Viewpager的接听事件：
         mvp.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tb));
