@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         tb.addTab(tb.newTab().setText("周五"));
         tb.addTab(tb.newTab().setText("周六"));
         tb.addTab(tb.newTab().setText("周日"));
-
+//分支1
         LayoutInflater lf = LayoutInflater.from(this);
         View v1 = lf.inflate(R.layout.item1, null);
         View v2 = lf.inflate(R.layout.item2, null);
