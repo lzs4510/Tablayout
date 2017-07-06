@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tb = (TabLayout) findViewById(R.id.tab);
         mvp = (ViewPager) findViewById(R.id.vp);
+        ///修改222
+
         tb.addTab(tb.newTab().setText("周一"));
         tb.addTab(tb.newTab().setText("周二"));
         tb.addTab(tb.newTab().setText("周三"));
