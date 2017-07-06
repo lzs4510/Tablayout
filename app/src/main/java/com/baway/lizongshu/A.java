@@ -5,4 +5,5 @@ package com.baway.lizongshu;
  */
 
 public class A {
+
 }
