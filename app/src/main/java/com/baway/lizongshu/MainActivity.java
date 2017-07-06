@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         pd = new PagerAdapter(mlist);
         mvp.setAdapter(pd);
         //第二次修改2222222
+        //第三次修改
         //tb.setupWithViewPager(mlist.get(po));
         //Viewpager的接听事件：
         mvp.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tb));
